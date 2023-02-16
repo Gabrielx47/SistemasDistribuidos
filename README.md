@@ -1,2 +1,2 @@
 # Sistemas Distribuídos
-Arquivos com conteúdos usados na disciplina
+Arquivos com conteúdos usados na disciplina.
