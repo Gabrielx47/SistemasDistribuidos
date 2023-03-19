@@ -28,7 +28,7 @@ public class Coordinator {
 
 
     /**
-     * Verifica se a mensagem enviada é igual a esparada, se sim, é enviado uma
+     * Verifica se a mensagem enviada é igual a esperada, se sim, é enviado uma
      * mensagem de
      * retorno ao processo com a palavra "Ok".
      * 
