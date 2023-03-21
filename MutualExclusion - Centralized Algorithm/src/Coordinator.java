@@ -21,9 +21,9 @@ public class Coordinator {
     private static void acessCriticalRegion(String expectedMessage) throws IOException{
             BufferedReader inFromProcess = new BufferedReader(new InputStreamReader(socketProcess.getInputStream()));
 
-            String messageRequest = inFromProcess.readLine();
+            String message = inFromProcess.readLine();
 
-            SendMessageOk(messageRequest, expectedMessage);
+            SendMessageOk(message, expectedMessage);
     }
 
 
