@@ -8,12 +8,13 @@ import java.net.UnknownHostException;
 public class Process{
     private int id;
     private Clock clock;
-    private Request requests;
+    public Request requests;
 
 
     Process(int id, int hour){
         this.id = id;
         clock = new Clock(hour);
+        clock.start();
         requests = new Request();
     }
 
